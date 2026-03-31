@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    internal class Vector
+    public class Vector
     {
         public double X;
         public double Y;

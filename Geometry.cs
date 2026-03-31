@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    internal class Geometry
+    public class Geometry
     {
         public static double GetLength(Vector vector)
         {
