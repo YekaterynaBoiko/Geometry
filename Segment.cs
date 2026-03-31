@@ -9,5 +9,15 @@ namespace Geometry
     internal class Segment
     {
         public Vector Begin, End;
+
+        public double GetLength()
+        {
+            return Geometry.GetLength(this);
+        }
+
+        public bool Contains(Vector vector)
+        {
+            return Geometry.IsVectorSegment(vector, this);
+        }
     }
 }
